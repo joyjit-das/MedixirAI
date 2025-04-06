@@ -6,15 +6,15 @@
 
 ## 🌐 Overview
 
-Medixir AI is an advanced web-based platform designed to accelerate drug discovery using cutting-edge Generative AI and secure technologies like blockchain. Built for the **Google Solution Challenge 2025**, the project addresses key global goals by promoting health, innovation, and partnerships.
+**Medixir AI** is a next-generation web platform that leverages Generative AI and blockchain technology to transform the drug discovery process. Developed as part of the **Google Solution Challenge 2025**, the project aligns with global goals by fostering better health, innovation, and secure collaborations.
 
 ---
 
 ## 🎯 Objectives
 
-- ⚡ Drastically reduce the time required for early-stage drug discovery  
-- 🔐 Provide a secure and verifiable environment to handle counterfeit drug issues  
-- 🤖 Empower researchers with AI-generated molecular candidates for potential drug development  
+- ⚡ **Accelerate early-stage drug discovery** by generating novel molecular structures  
+- 🔐 **Combat counterfeit drugs** through a secure, verifiable blockchain publishing system  
+- 🤖 **Support researchers and scientists** with AI-generated molecular candidates for therapeutic development  
 
 ---
 
@@ -28,35 +28,35 @@ Medixir AI is an advanced web-based platform designed to accelerate drug discove
 
 ## 🔑 Core Features
 
-- 🧪 **Novel Molecule Generation** using Generative AI models  
-- 📊 **Molecule Evaluation** to assess chemical properties and drug-likeness  
-- ⛓️ **Blockchain Publishing** for traceable and secure storage of evaluated compounds  
+- 🧪 **AI-Based Molecule Generation** – Harnessing Generative AI to produce novel molecular structures  
+- 📊 **Molecular Evaluation** – Assessing properties like drug-likeness and synthetic accessibility  
+- ⛓️ **Blockchain Integration** – Publishing validated molecules securely using Ethereum and Solidity  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer      | Tech                            |
-|------------|---------------------------------|
-| Frontend   | Flutter (Dart)                  |
-| Backend    | FastAPI (Python)                |
-| ML Models  | Custom-trained Generative AI    |
-| Blockchain | Ethereum + Solidity             |
-| Deployment | Firebase Hosting                |
+| Layer        | Technologies                          |
+|--------------|----------------------------------------|
+| Frontend     | Flutter (Dart)                         |
+| Backend      | FastAPI (Python)                       |
+| AI/ML Models | Custom-trained Generative AI Frameworks |
+| Blockchain   | Ethereum & Solidity                    |
+| Deployment   | Firebase Hosting                       |
 
 ---
 
 ## 👨‍💻 Tech Contributors
 
-- **Joyjit Das** – AI/ML & Blockchain Engineer  
+- **Joyjit Das** – AI/ML & Blockchain Developer  
 - **Sarab Bose** – App Developer  
 
 ---
 
 ## 📌 Note
 
-This repository contains the **core source files only** for both frontend and backend. Build files and environment-specific setups are intentionally excluded for clarity and focus on core development logic.
+This repository contains only the **core source files** for both the frontend and backend. Build outputs, compiled files, and environment configurations are intentionally excluded for a clean and focused codebase.
 
 ---
 
-> 🚀 *Built with purpose for the Google Solution Challenge 2025*
+> 🚀 *Built with passion for the Google Solution Challenge 2025 – Driving innovation, health, and collaboration forward.*
