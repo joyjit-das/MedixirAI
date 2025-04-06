@@ -1,0 +1,40 @@
+name: drugs_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.0.0
+  sqflite: ^2.2.8+4
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  # UI & Fonts
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  firebase_app_check: ^0.3.2+4
+  google_sign_in: ^6.2.1
+  google_sign_in_web: ^0.12.1
+  file_picker: ^9.2.1
+  flutter_dropzone: ^4.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/google_logo.png
+    - assets/molecule.jpg
+  
