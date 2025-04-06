@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+}
+
+/* Hero Section */
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    flex: 1;
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container {
+    flex: 1;
+    background-color: #f0f4f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #4a4a4a;
+    line-height: 1.5;
+    max-width: 550px;
+}
+
+/* Technology Stack Section */
+.tech-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+}
+
+.tech-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    width: 320px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.icon.blue svg {
+    color: #4267F0;
+}
+
+.icon.purple svg {
+    color: #6C47F0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    margin-bottom: 15px;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+i.fa-check {
+    color: #25C685;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+
+/* Platform Features Section */
+.platform-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.platform-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.platform-features {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.feature-icon i {
+    font-size: 24px;
+    color: #4267F0;
+}
+
+.feature-icon i.fa-database {
+    color: #6C47F0;
+}
+
+.feature-icon i.fa-shield-alt {
+    color: #25C685;
+}
+
+.feature-content {
+    flex-grow: 1;
+}
+
+.feature-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.feature-content p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.platform-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 200%;
+}
+
+/* Drug Discovery Process Section */
+.process-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px 100px;
+    background-color: #f0f4f8;
+}
+
+.process-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.process-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    width: 250px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.process-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.process-icon.blue svg {
+    color: #4267F0;
+}
+
+.process-icon.purple svg {
+    color: #6C47F0;
+}
+
+.process-icon.green svg {
+    color: #25C685;
+}
+
+.process-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.process-card p {
+    font-size: 1rem;
+    color: #4a4a4a;
+    line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (max-width: 1080px) {
+    .tech-cards {
+        gap: 20px;
+    }
+    
+    .card {
+        width: 300px;
+    }
+    
+    .platform-container {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .content {
+        padding: 10% 5%;
+    }
+    
+    .image-container {
+        min-height: 300px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    
+    .tech-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .platform-container {
+        flex-direction: column-reverse;
+    }
+    
+    .platform-image {
+        width: 100%;
+    }
+    
+    .platform-image img {
+        width: 100%;
+    }
+}
+.cta-banner {
+    background-color: #2962ff;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.cta-button {
+    display: inline-block;
+    background-color: white;
+    color: #2962ff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #f0f4f8;
+    transform: translateY(-2px);
+}
+.footer {
+    background-color: #161c2d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
